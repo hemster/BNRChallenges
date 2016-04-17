@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A6C1331CC395EB00B49C31 /* UIView+FindFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A6C1321CC395EB00B49C31 /* UIView+FindFirstResponder.m */; };
 		C314184B1CBFF05000FD67A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C314184A1CBFF05000FD67A6 /* main.m */; };
 		C314184E1CBFF05000FD67A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C314184D1CBFF05000FD67A6 /* AppDelegate.m */; };
 		C31418511CBFF05000FD67A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31418501CBFF05000FD67A6 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3A6C1311CC395EB00B49C31 /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindFirstResponder.h"; sourceTree = "<group>"; };
+		A3A6C1321CC395EB00B49C31 /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindFirstResponder.m"; sourceTree = "<group>"; };
 		C31418461CBFF05000FD67A6 /* BNRHypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNRHypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C314184A1CBFF05000FD67A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C314184C1CBFF05000FD67A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +46,8 @@
 		C314183D1CBFF05000FD67A6 = {
 			isa = PBXGroup;
 			children = (
+				A3A6C1311CC395EB00B49C31 /* UIView+FindFirstResponder.h */,
+				A3A6C1321CC395EB00B49C31 /* UIView+FindFirstResponder.m */,
 				C31418481CBFF05000FD67A6 /* BNRHypnosister */,
 				C31418471CBFF05000FD67A6 /* Products */,
 			);
@@ -154,6 +159,7 @@
 				C314184E1CBFF05000FD67A6 /* AppDelegate.m in Sources */,
 				C31418621CBFF08700FD67A6 /* BNRHypnosisView.m in Sources */,
 				C314184B1CBFF05000FD67A6 /* main.m in Sources */,
+				A3A6C1331CC395EB00B49C31 /* UIView+FindFirstResponder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +300,7 @@
 				C314185F1CBFF05000FD67A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

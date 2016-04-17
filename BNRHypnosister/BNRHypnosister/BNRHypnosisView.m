@@ -71,17 +71,16 @@
                                            alpha:1.0];
     self.circleColor = randomColor;
     
+//    [self setNeedsDisplay];
+}
+
+- (void)setCircleColor:(UIColor *)circleColor {
+    _circleColor = circleColor;
     [self setNeedsDisplay];
+    
+    // partially redraw a view 
+//    [self setNeedsDisplayInRect:CGRectMake(0, self.bounds.size.height / 3.0, self.bounds.size.width, self.bounds.size.height / 3.0)];
 }
-
-- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"%@ was touched", self);
-}
-
-
-
-
-
 
 
 

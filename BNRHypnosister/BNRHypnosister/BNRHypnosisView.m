@@ -20,12 +20,8 @@
     self = [super initWithFrame:frame];
     
     if(self) {
-//        self.backgroundColor = [UIColor clearColor];
-        self.backgroundColor = [UIColor redColor];
-        
+        self.backgroundColor = [UIColor clearColor];
         self.circleColor = [UIColor lightGrayColor];
-//        self.userInteractionEnabled = YES;
-        [self setUserInteractionEnabled:YES];
     }
     return self;
 }
@@ -62,7 +58,6 @@
 }
 
 - (void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [super touchesBegan:touches withEvent:event];
     NSLog(@"%@ was touched", self);
     
     // get 3 0~1 number

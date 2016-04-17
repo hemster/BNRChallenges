@@ -23,16 +23,14 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-//    CGRect firstFrame = CGRectMake(160, 240, 100, 150);
-    CGRect firstFrame = self.window.bounds;
-    BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
-//    firstView.backgroundColor = [UIColor redColor];
-    [self.window addSubview:firstView];
-    
-
     ViewController *vc = [[ViewController alloc] init];
     vc.view.backgroundColor = [UIColor clearColor];
     self.window.rootViewController = vc;
+    
+    CGRect firstFrame = self.window.bounds;
+    BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
+    
+    [vc.view addSubview:firstView];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

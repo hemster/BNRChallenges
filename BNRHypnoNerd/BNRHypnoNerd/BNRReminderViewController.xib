@@ -30,26 +30,9 @@
                         <action selector="addReminder:" destination="-1" eventType="touchUpInside" id="cw7-Ca-rsN"/>
                     </connections>
                 </button>
-                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVR-lz-FUy">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                    <items>
-                        <barButtonItem tag="10086" image="icon-01_00.png" id="g1I-Bx-c4m"/>
-                    </items>
-                </toolbar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <point key="canvasLocation" x="426" y="331"/>
         </view>
-        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZuO-tf-90d">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-            <items>
-                <barButtonItem title="Item" id="qm2-rc-Ua6"/>
-            </items>
-            <point key="canvasLocation" x="607" y="142"/>
-        </toolbar>
     </objects>
-    <resources>
-        <image name="icon-01_00.png" width="24" height="24"/>
-    </resources>
 </document>

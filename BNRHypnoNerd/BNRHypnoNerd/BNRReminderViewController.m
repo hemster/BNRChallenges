@@ -20,22 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *viewArray = [[NSBundle mainBundle] loadNibNamed:@"BNRReminderViewController" owner:self options:nil];
-    
-    for(UIView *view in viewArray) {
-        if(view.subviews) {
-            for(UIView *subview in view.subviews) {
-                if([subview isMemberOfClass:[UIImageView class]]) {
-                    NSLog(@"Tag: %ld", (long)subview.tag);
-                    NSLog(@"Image Found!: %@", ((UIImageView *)subview).image);
-                }
-            }
-//            NSLog(@"Subview: %@", view.subviews);
-            view.backgroundColor = [UIColor blackColor];
-            
-        }
-    }
-//    UIView *view = [[NSBundle mainBundle] loadNibNamed:@"BNRReminderViewController" owner:self options:nil][0];
+//    NSArray *viewArray = [[NSBundle mainBundle] loadNibNamed:@"BNRReminderViewController" owner:self options:nil];
+//    
+//    for(UIView *view in viewArray) {
+//        if(view.subviews) {
+//            for(UIView *subview in view.subviews) {
+//                if([subview isMemberOfClass:[UIImageView class]]) {
+//                    NSLog(@"Tag: %ld", (long)subview.tag);
+//                    NSLog(@"Image Found!: %@", ((UIImageView *)subview).image);
+//                }
+//            }
+////            NSLog(@"Subview: %@", view.subviews);
+//            view.backgroundColor = [UIColor blackColor];
+//            
+//        }
+//    }
+////    UIView *view = [[NSBundle mainBundle] loadNibNamed:@"BNRReminderViewController" owner:self options:nil][0];
     
     
     
